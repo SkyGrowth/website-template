@@ -1,14 +1,27 @@
 import React from "react";
 import Button from "../main/Button";
 
-const Header = ({ title, subheading, buttonText }) => {
+const Header = ({
+  title,
+  subheading,
+  buttonText,
+  titleStyle = {},
+  subheadingStyle = {},
+}) => {
   return (
     <header className="mb-6 mx-4">
-      <h1 className="text-slate-950 text-5xl font-bold tracking-tighter pb-3">
+      <h1
+        className={`text-5xl tracking-tighter pb-3 ${titleStyle.color} ${titleStyle.fontWeight}`}
+      >
         {title}
       </h1>
-      <p className="text-slate-600 font-normal pb-6">{subheading}</p>
-
+      <p
+        className={`pb-6 ${subheadingStyle.color || "text-slate-600"} ${
+          subheadingStyle.fontWeight || "font-normal"
+        }`}
+      >
+        {subheading}
+      </p>
       <Button text={buttonText} />
     </header>
   );
