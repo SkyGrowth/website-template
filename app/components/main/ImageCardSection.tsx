@@ -2,7 +2,7 @@ import {
   CARD1,
   CARD2,
   CARD3,
-} from "@/app/constants/card-image-section/constants";
+} from "@/app/about/about-constants/card-image-section/constants";
 import React from "react";
 import ImageCard from "../sub/ImageCard";
 
@@ -11,7 +11,7 @@ const ImageCardSection = ({ backgroundStyle }) => {
     <section
       className={`${backgroundStyle} flex items-center justify-center lg:py-16`}
     >
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="grid gap-3 lg:grid-cols-3">
         <ImageCard
           title={CARD1.title}
           description={CARD1.description}

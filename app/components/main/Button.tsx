@@ -6,7 +6,7 @@ const Button = ({
   disabled = false,
 }) => {
   const buttonStyles = {
-    primary: "bg-slate-900 hover:bg-slate-700 active:bg-slate-950 text-white",
+    primary: "bg-zinc-900 hover:bg-zinc-700 active:bg-zinc-950 text-white",
     secondary: "bg-gray-500 hover:bg-gray-700 active:bg-grey-950 text-white",
     danger: "bg-red-500 hover:bg-red-700 active:bg-red-950 text-white",
     outline:

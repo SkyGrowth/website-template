@@ -4,7 +4,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Hamburger from "../sub/Hamburger";
 import NavbarModal from "../sub/NavbarModal";
-import { NAVBAR } from "@/app/constants/navbar/constants";
+import { NAVBAR } from "@/app/home-constants/navbar/constants";
 
 const Navbar = () => {
   const currentRoute = usePathname();

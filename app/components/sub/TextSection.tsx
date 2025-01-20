@@ -16,7 +16,7 @@ const TextSection = ({
         {title}
       </h1>
       <p
-        className={`pb-6 ${subheadingStyle.color} ${subheadingStyle.fontWeight}`}
+        className={`pb-6 max-w-96 ${subheadingStyle.color} ${subheadingStyle.fontWeight}`}
       >
         {subheading}
       </p>

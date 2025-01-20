@@ -7,7 +7,7 @@ import { SECTION1, SECTION2 } from "./constants";
 const page = () => {
   return (
     <div>
-      {" "}
+      {/* {" "}
       <PageSection backgroundStyle={SECTION1.backgroundStyle}>
         <RightTextSection
           title={SECTION1.title}
@@ -27,7 +27,7 @@ const page = () => {
           buttonText={SECTION2.buttonText}
           image={SECTION2.image}
         />
-      </PageSection>
+      </PageSection> */}
     </div>
   );
 };

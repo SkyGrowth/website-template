@@ -1,9 +1,9 @@
-import { companyName, FOOTER } from "@/app/constants/footer/contants";
+import { companyName, FOOTER } from "@/app/home-constants/footer/contants";
 
 const Footer = () => {
   companyName;
   return (
-    <footer className="bg-slate-950 text-white py-4">
+    <footer className="bg-zinc-950 text-white py-4">
       <div className="container mx-auto text-center">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} {companyName}. All rights reserved.
@@ -13,7 +13,7 @@ const Footer = () => {
             href={FOOTER.socials1.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400"
+            className="hover:text-zinc-300"
           >
             {FOOTER.socials1.name}
           </a>
@@ -21,7 +21,7 @@ const Footer = () => {
             href={FOOTER.socials2.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-600"
+            className="hover:text-zinc-300"
           >
             {FOOTER.socials2.name}
           </a>
@@ -29,7 +29,7 @@ const Footer = () => {
             href={FOOTER.socials3.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400"
+            className="hover:text-zinc-300"
           >
             {FOOTER.socials3.name}
           </a>

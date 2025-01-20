@@ -6,13 +6,13 @@ import PageSection from "../components/main/PageSection";
 import Hero from "../components/sub/Hero";
 import LeftTextSection from "../components/sub/LeftTextSection";
 import RightTextSection from "../components/sub/RightTextSection";
-import { CARDBACKGROUND } from "../constants/card-image-section/constants";
-import { HERO, SECTION1 } from "../constants/hero/constants";
+import { CARDBACKGROUND } from "../home-constants/card-image-section/constants";
+import { HERO, SECTION1 } from "../home-constants/hero/constants";
 
 const page = () => {
   return (
     <div>
-      <HeroSection backgroundStyle={HERO.backgroundStyle}>
+      {/* <HeroSection backgroundStyle={HERO.backgroundStyle}>
         <Hero
           title={HERO.title}
           subheading={HERO.subheading}
@@ -42,7 +42,7 @@ const page = () => {
           buttonText={SECTION2.buttonText}
           image={SECTION2.image}
         />
-      </PageSection>
+      </PageSection> */}
     </div>
   );
 };

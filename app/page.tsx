@@ -1,11 +1,13 @@
 import HeroSection from "./components/main/HeroSection";
-import { HERO, SECTION1, SECTION2 } from "./constants/hero/constants";
+import { HERO, SECTION1, SECTION2 } from "./home-constants/hero/constants";
 import Hero from "./components/sub/Hero";
-import CardSection from "./components/main/ImageCardSection";
+import ImageCardSection from "./components/main/ImageCardSection";
 import PageSection from "./components/main/PageSection";
 import RightTextSection from "./components/sub/RightTextSection";
 import LeftTextSection from "./components/sub/LeftTextSection";
-import { CARDBACKGROUND } from "./constants/card-image-section/constants";
+import { IMAGE_CARD_BG } from "./home-constants/card-image-section/constants";
+import IconCardSection from "./components/main/IconCardSection";
+import { ICON_CARD_BG } from "./home-constants/card-icon-section/constants";
 
 export default function Home() {
   return (
@@ -20,7 +22,7 @@ export default function Home() {
           image={HERO.image}
         />
       </HeroSection>
-      <CardSection backgroundStyle={CARDBACKGROUND.backgroundStyle} />
+      <IconCardSection backgroundStyle={ICON_CARD_BG.backgroundStyle} />
       <PageSection backgroundStyle={SECTION1.backgroundStyle}>
         <RightTextSection
           title={SECTION1.title}
