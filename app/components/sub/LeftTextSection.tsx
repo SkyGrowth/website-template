@@ -11,7 +11,7 @@ const LeftTextSection = ({
   image,
 }) => {
   return (
-    <div className="flex flex-col z-10 items-center justify-center md:flex-row container text-left md:gap-3 gap-10">
+    <div className="flex flex-col items-center justify-center md:flex-row container text-left md:gap-3 gap-10">
       <TextSection
         title={title}
         subheading={subheading}

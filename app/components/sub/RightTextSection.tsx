@@ -11,7 +11,7 @@ const RightTextSection = ({
   image,
 }) => {
   return (
-    <div className="flex flex-col-reverse z-10 items-center justify-center md:flex-row container text-left md:gap-3 gap-10">
+    <div className="flex flex-col-reverse items-center justify-center md:flex-row container text-left md:gap-3 gap-10">
       <div>
         <Image
           src={image}

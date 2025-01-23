@@ -18,7 +18,7 @@ const NavbarModal: React.FC<NavbarModalProps> = ({ onClose }) => {
   }, []);
 
   return (
-    <div className="pt-10 block sm:hidden p-4 z-10 absolute bg-zinc-100 w-full h-lvh font-sans font-semibold text-[14px] text-zinc-500">
+    <div className="pt-10 block sm:hidden p-4 absolute bg-zinc-100 w-full h-lvh font-sans font-semibold text-[14px] text-zinc-500">
       <div className="flex flex-col gap-4">
         <Link
           href="/"

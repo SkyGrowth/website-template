@@ -11,7 +11,7 @@ const Hero = ({
   image,
 }) => {
   return (
-    <div className="flex z-10 items-center justify-center md:flex-row container text-left md:gap-3 gap-10">
+    <div className="flex items-center justify-center md:flex-row container text-left md:gap-3 gap-10">
       <Header
         title={title}
         subheading={subheading}

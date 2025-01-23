@@ -18,7 +18,7 @@ const Button = ({
       onClick={onClick}
       type={type}
       disabled={disabled}
-      className={`px-4 py-2 rounded-md focus:outline-none transition duration-300 z-10 ease-in-out ${
+      className={`px-4 py-2 rounded-md focus:outline-none transition duration-300 ease-in-out ${
         buttonStyles[variant]
       } ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
     >

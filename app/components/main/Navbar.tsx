@@ -11,7 +11,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className={`${NAVBAR.backgroundStyle} sticky top-0 backdrop-blur-sm`}>
+    <nav
+      className={`${NAVBAR.backgroundStyle} z-50 sticky top-0 backdrop-blur-sm`}
+    >
       <div
         className={`${NAVBAR.fontStyle} md:max-lg:px-10 py-4 px-4 flex justify-between font-sans text-[14px] items-center`}
       >

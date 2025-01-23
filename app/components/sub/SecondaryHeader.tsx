@@ -11,7 +11,7 @@ const SecondaryHeader = ({
 }) => {
   return (
     <div
-      className={`${backgroundStyle} pb-10 relative flex flex-col items-center justify-center pt-8 -z-10`}
+      className={`${backgroundStyle} pb-10 relative flex flex-col items-center justify-center pt-8 `}
     >
       <h6
         className={`text-4xl tracking-tighter pb-3 ${titleStyle.color} ${titleStyle.fontWeight}`}
